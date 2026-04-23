@@ -1,0 +1,3432 @@
+{
+  "model_type": "T-Learner (GradientBoostingRegressor)",
+  "features": [
+    "sofa",
+    "map",
+    "lactate",
+    "age",
+    "creatinine",
+    "hr",
+    "spo2",
+    "urine",
+    "hour"
+  ],
+  "training_source": "synthetic",
+  "n_training_rows": 21712,
+  "profiles": [
+    {
+      "admission": {
+        "sofa": 11,
+        "map": 58,
+        "lactate": 4.2,
+        "age": 67,
+        "creatinine": 1.8,
+        "hr": 118,
+        "spo2": 94,
+        "urine": 28
+      },
+      "pivot_hour": 5,
+      "no_return_hour": 15,
+      "hourly": [
+        {
+          "hour": 0,
+          "label": "H0",
+          "mu0": 0.187,
+          "mu1": 0.18,
+          "ite": -0.007,
+          "ite_upper": 0.028,
+          "ite_lower": -0.042,
+          "fluids_vitals": {
+            "map": 58.0,
+            "lactate": 4.2,
+            "hr": 118.0,
+            "spo2": 94.0,
+            "urine": 28.0
+          },
+          "vaso_vitals": {
+            "map": 58.0,
+            "lactate": 4.2,
+            "hr": 118.0,
+            "spo2": 94.0,
+            "urine": 28.0
+          }
+        },
+        {
+          "hour": 1,
+          "label": "H1",
+          "mu0": 0.186,
+          "mu1": 0.177,
+          "ite": -0.009,
+          "ite_upper": 0.028,
+          "ite_lower": -0.046,
+          "fluids_vitals": {
+            "map": 57.6,
+            "lactate": 4.36,
+            "hr": 118.6,
+            "spo2": 93.7,
+            "urine": 26.6
+          },
+          "vaso_vitals": {
+            "map": 59.3,
+            "lactate": 4.13,
+            "hr": 117.4,
+            "spo2": 94.1,
+            "urine": 28.7
+          }
+        },
+        {
+          "hour": 2,
+          "label": "H2",
+          "mu0": 0.181,
+          "mu1": 0.177,
+          "ite": -0.004,
+          "ite_upper": 0.035,
+          "ite_lower": -0.043,
+          "fluids_vitals": {
+            "map": 57.2,
+            "lactate": 4.48,
+            "hr": 119.0,
+            "spo2": 93.4,
+            "urine": 25.7
+          },
+          "vaso_vitals": {
+            "map": 60.8,
+            "lactate": 4.02,
+            "hr": 116.6,
+            "spo2": 94.1,
+            "urine": 30.0
+          }
+        },
+        {
+          "hour": 3,
+          "label": "H3",
+          "mu0": 0.183,
+          "mu1": 0.194,
+          "ite": 0.012,
+          "ite_upper": 0.053,
+          "ite_lower": -0.029,
+          "fluids_vitals": {
+            "map": 56.8,
+            "lactate": 4.61,
+            "hr": 119.2,
+            "spo2": 93.1,
+            "urine": 24.6
+          },
+          "vaso_vitals": {
+            "map": 62.2,
+            "lactate": 3.92,
+            "hr": 115.9,
+            "spo2": 94.1,
+            "urine": 30.9
+          }
+        },
+        {
+          "hour": 4,
+          "label": "H4",
+          "mu0": 0.182,
+          "mu1": 0.211,
+          "ite": 0.029,
+          "ite_upper": 0.072,
+          "ite_lower": -0.014,
+          "fluids_vitals": {
+            "map": 56.7,
+            "lactate": 4.72,
+            "hr": 119.2,
+            "spo2": 92.8,
+            "urine": 23.4
+          },
+          "vaso_vitals": {
+            "map": 63.6,
+            "lactate": 3.8,
+            "hr": 114.7,
+            "spo2": 94.1,
+            "urine": 31.9
+          }
+        },
+        {
+          "hour": 5,
+          "label": "H5",
+          "mu0": 0.17,
+          "mu1": 0.221,
+          "ite": 0.052,
+          "ite_upper": 0.097,
+          "ite_lower": 0.007,
+          "fluids_vitals": {
+            "map": 56.3,
+            "lactate": 4.81,
+            "hr": 119.2,
+            "spo2": 92.5,
+            "urine": 22.3
+          },
+          "vaso_vitals": {
+            "map": 64.8,
+            "lactate": 3.67,
+            "hr": 113.7,
+            "spo2": 94.1,
+            "urine": 32.9
+          }
+        },
+        {
+          "hour": 6,
+          "label": "H6",
+          "mu0": 0.169,
+          "mu1": 0.228,
+          "ite": 0.059,
+          "ite_upper": 0.106,
+          "ite_lower": 0.012,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 4.92,
+            "hr": 119.1,
+            "spo2": 92.2,
+            "urine": 21.3
+          },
+          "vaso_vitals": {
+            "map": 66.4,
+            "lactate": 3.52,
+            "hr": 112.4,
+            "spo2": 94.1,
+            "urine": 34.1
+          }
+        },
+        {
+          "hour": 7,
+          "label": "H7",
+          "mu0": 0.145,
+          "mu1": 0.229,
+          "ite": 0.085,
+          "ite_upper": 0.134,
+          "ite_lower": 0.036,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 5.01,
+            "hr": 119.0,
+            "spo2": 91.9,
+            "urine": 20.5
+          },
+          "vaso_vitals": {
+            "map": 67.8,
+            "lactate": 3.37,
+            "hr": 111.1,
+            "spo2": 94.1,
+            "urine": 35.4
+          }
+        },
+        {
+          "hour": 8,
+          "label": "H8",
+          "mu0": 0.14,
+          "mu1": 0.225,
+          "ite": 0.085,
+          "ite_upper": 0.136,
+          "ite_lower": 0.034,
+          "fluids_vitals": {
+            "map": 56.0,
+            "lactate": 5.08,
+            "hr": 119.0,
+            "spo2": 91.7,
+            "urine": 19.7
+          },
+          "vaso_vitals": {
+            "map": 69.6,
+            "lactate": 3.23,
+            "hr": 109.6,
+            "spo2": 94.1,
+            "urine": 37.0
+          }
+        },
+        {
+          "hour": 9,
+          "label": "H9",
+          "mu0": 0.124,
+          "mu1": 0.223,
+          "ite": 0.099,
+          "ite_upper": 0.152,
+          "ite_lower": 0.046,
+          "fluids_vitals": {
+            "map": 56.0,
+            "lactate": 5.16,
+            "hr": 118.9,
+            "spo2": 91.4,
+            "urine": 18.6
+          },
+          "vaso_vitals": {
+            "map": 71.3,
+            "lactate": 3.06,
+            "hr": 108.5,
+            "spo2": 94.1,
+            "urine": 38.7
+          }
+        },
+        {
+          "hour": 10,
+          "label": "H10",
+          "mu0": 0.118,
+          "mu1": 0.221,
+          "ite": 0.103,
+          "ite_upper": 0.158,
+          "ite_lower": 0.048,
+          "fluids_vitals": {
+            "map": 56.0,
+            "lactate": 5.23,
+            "hr": 118.9,
+            "spo2": 91.2,
+            "urine": 17.7
+          },
+          "vaso_vitals": {
+            "map": 72.9,
+            "lactate": 2.9,
+            "hr": 107.4,
+            "spo2": 94.1,
+            "urine": 40.4
+          }
+        },
+        {
+          "hour": 11,
+          "label": "H11",
+          "mu0": 0.11,
+          "mu1": 0.218,
+          "ite": 0.108,
+          "ite_upper": 0.165,
+          "ite_lower": 0.051,
+          "fluids_vitals": {
+            "map": 56.0,
+            "lactate": 5.3,
+            "hr": 118.9,
+            "spo2": 90.9,
+            "urine": 16.8
+          },
+          "vaso_vitals": {
+            "map": 74.2,
+            "lactate": 2.8,
+            "hr": 106.4,
+            "spo2": 94.1,
+            "urine": 42.0
+          }
+        },
+        {
+          "hour": 12,
+          "label": "H12",
+          "mu0": 0.106,
+          "mu1": 0.214,
+          "ite": 0.107,
+          "ite_upper": 0.166,
+          "ite_lower": 0.048,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 5.41,
+            "hr": 118.9,
+            "spo2": 90.7,
+            "urine": 15.8
+          },
+          "vaso_vitals": {
+            "map": 75.7,
+            "lactate": 2.66,
+            "hr": 105.2,
+            "spo2": 94.1,
+            "urine": 43.5
+          }
+        },
+        {
+          "hour": 13,
+          "label": "H13",
+          "mu0": 0.105,
+          "mu1": 0.199,
+          "ite": 0.094,
+          "ite_upper": 0.155,
+          "ite_lower": 0.033,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 5.51,
+            "hr": 118.9,
+            "spo2": 90.4,
+            "urine": 15.0
+          },
+          "vaso_vitals": {
+            "map": 77.4,
+            "lactate": 2.49,
+            "hr": 103.9,
+            "spo2": 94.1,
+            "urine": 45.0
+          }
+        },
+        {
+          "hour": 14,
+          "label": "H14",
+          "mu0": 0.101,
+          "mu1": 0.189,
+          "ite": 0.089,
+          "ite_upper": 0.152,
+          "ite_lower": 0.026,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 5.62,
+            "hr": 118.9,
+            "spo2": 90.1,
+            "urine": 13.9
+          },
+          "vaso_vitals": {
+            "map": 78.7,
+            "lactate": 2.36,
+            "hr": 102.7,
+            "spo2": 94.1,
+            "urine": 46.0
+          }
+        },
+        {
+          "hour": 15,
+          "label": "H15",
+          "mu0": 0.096,
+          "mu1": 0.172,
+          "ite": 0.076,
+          "ite_upper": 0.141,
+          "ite_lower": 0.011,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 5.7,
+            "hr": 118.9,
+            "spo2": 89.8,
+            "urine": 12.4
+          },
+          "vaso_vitals": {
+            "map": 80.4,
+            "lactate": 2.24,
+            "hr": 101.5,
+            "spo2": 94.1,
+            "urine": 47.3
+          }
+        },
+        {
+          "hour": 16,
+          "label": "H16",
+          "mu0": 0.09,
+          "mu1": 0.165,
+          "ite": 0.075,
+          "ite_upper": 0.142,
+          "ite_lower": 0.008,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 5.77,
+            "hr": 115.7,
+            "spo2": 89.5,
+            "urine": 11.5
+          },
+          "vaso_vitals": {
+            "map": 81.8,
+            "lactate": 2.13,
+            "hr": 100.1,
+            "spo2": 94.1,
+            "urine": 49.0
+          }
+        },
+        {
+          "hour": 17,
+          "label": "H17",
+          "mu0": 0.09,
+          "mu1": 0.166,
+          "ite": 0.076,
+          "ite_upper": 0.145,
+          "ite_lower": 0.007,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 5.87,
+            "hr": 112.1,
+            "spo2": 89.2,
+            "urine": 10.5
+          },
+          "vaso_vitals": {
+            "map": 83.3,
+            "lactate": 1.95,
+            "hr": 98.7,
+            "spo2": 94.1,
+            "urine": 50.0
+          }
+        },
+        {
+          "hour": 18,
+          "label": "H18",
+          "mu0": 0.088,
+          "mu1": 0.143,
+          "ite": 0.055,
+          "ite_upper": 0.126,
+          "ite_lower": -0.016,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 6.0,
+            "hr": 108.9,
+            "spo2": 88.9,
+            "urine": 9.5
+          },
+          "vaso_vitals": {
+            "map": 84.8,
+            "lactate": 1.86,
+            "hr": 97.2,
+            "spo2": 94.1,
+            "urine": 51.5
+          }
+        },
+        {
+          "hour": 19,
+          "label": "H19",
+          "mu0": 0.089,
+          "mu1": 0.142,
+          "ite": 0.053,
+          "ite_upper": 0.126,
+          "ite_lower": -0.02,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 6.13,
+            "hr": 105.5,
+            "spo2": 88.6,
+            "urine": 8.7
+          },
+          "vaso_vitals": {
+            "map": 86.4,
+            "lactate": 1.73,
+            "hr": 95.9,
+            "spo2": 94.1,
+            "urine": 52.7
+          }
+        },
+        {
+          "hour": 20,
+          "label": "H20",
+          "mu0": 0.088,
+          "mu1": 0.143,
+          "ite": 0.055,
+          "ite_upper": 0.13,
+          "ite_lower": -0.02,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 6.23,
+            "hr": 102.3,
+            "spo2": 88.3,
+            "urine": 7.6
+          },
+          "vaso_vitals": {
+            "map": 88.1,
+            "lactate": 1.62,
+            "hr": 94.4,
+            "spo2": 94.1,
+            "urine": 53.8
+          }
+        },
+        {
+          "hour": 21,
+          "label": "H21",
+          "mu0": 0.088,
+          "mu1": 0.143,
+          "ite": 0.055,
+          "ite_upper": 0.132,
+          "ite_lower": -0.022,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 6.35,
+            "hr": 99.4,
+            "spo2": 88.0,
+            "urine": 6.6
+          },
+          "vaso_vitals": {
+            "map": 89.7,
+            "lactate": 1.53,
+            "hr": 93.2,
+            "spo2": 94.1,
+            "urine": 55.7
+          }
+        },
+        {
+          "hour": 22,
+          "label": "H22",
+          "mu0": 0.083,
+          "mu1": 0.15,
+          "ite": 0.066,
+          "ite_upper": 0.145,
+          "ite_lower": -0.013,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 6.48,
+            "hr": 96.4,
+            "spo2": 87.7,
+            "urine": 5.5
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 1.41,
+            "hr": 92.0,
+            "spo2": 94.1,
+            "urine": 57.1
+          }
+        },
+        {
+          "hour": 23,
+          "label": "H23",
+          "mu0": 0.087,
+          "mu1": 0.173,
+          "ite": 0.086,
+          "ite_upper": 0.167,
+          "ite_lower": 0.005,
+          "fluids_vitals": {
+            "map": 55.9,
+            "lactate": 6.61,
+            "hr": 93.1,
+            "spo2": 87.4,
+            "urine": 4.7
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 1.23,
+            "hr": 90.6,
+            "spo2": 94.1,
+            "urine": 58.5
+          }
+        }
+      ]
+    },
+    {
+      "admission": {
+        "sofa": 8,
+        "map": 63,
+        "lactate": 2.9,
+        "age": 54,
+        "creatinine": 1.1,
+        "hr": 104,
+        "spo2": 96,
+        "urine": 38
+      },
+      "pivot_hour": 6,
+      "no_return_hour": 16,
+      "hourly": [
+        {
+          "hour": 0,
+          "label": "H0",
+          "mu0": 0.391,
+          "mu1": 0.383,
+          "ite": -0.008,
+          "ite_upper": 0.027,
+          "ite_lower": -0.043,
+          "fluids_vitals": {
+            "map": 63.0,
+            "lactate": 2.9,
+            "hr": 104.0,
+            "spo2": 96.0,
+            "urine": 38.0
+          },
+          "vaso_vitals": {
+            "map": 63.0,
+            "lactate": 2.9,
+            "hr": 104.0,
+            "spo2": 96.0,
+            "urine": 38.0
+          }
+        },
+        {
+          "hour": 1,
+          "label": "H1",
+          "mu0": 0.392,
+          "mu1": 0.378,
+          "ite": -0.015,
+          "ite_upper": 0.022,
+          "ite_lower": -0.052,
+          "fluids_vitals": {
+            "map": 62.7,
+            "lactate": 3.02,
+            "hr": 104.2,
+            "spo2": 95.6,
+            "urine": 36.9
+          },
+          "vaso_vitals": {
+            "map": 64.3,
+            "lactate": 2.82,
+            "hr": 103.1,
+            "spo2": 96.0,
+            "urine": 39.4
+          }
+        },
+        {
+          "hour": 2,
+          "label": "H2",
+          "mu0": 0.389,
+          "mu1": 0.377,
+          "ite": -0.012,
+          "ite_upper": 0.027,
+          "ite_lower": -0.051,
+          "fluids_vitals": {
+            "map": 62.6,
+            "lactate": 3.07,
+            "hr": 104.8,
+            "spo2": 95.3,
+            "urine": 36.0
+          },
+          "vaso_vitals": {
+            "map": 65.8,
+            "lactate": 2.68,
+            "hr": 102.0,
+            "spo2": 96.0,
+            "urine": 40.8
+          }
+        },
+        {
+          "hour": 3,
+          "label": "H3",
+          "mu0": 0.387,
+          "mu1": 0.391,
+          "ite": 0.004,
+          "ite_upper": 0.045,
+          "ite_lower": -0.037,
+          "fluids_vitals": {
+            "map": 62.7,
+            "lactate": 3.11,
+            "hr": 104.9,
+            "spo2": 95.0,
+            "urine": 34.8
+          },
+          "vaso_vitals": {
+            "map": 67.3,
+            "lactate": 2.6,
+            "hr": 100.7,
+            "spo2": 96.0,
+            "urine": 42.0
+          }
+        },
+        {
+          "hour": 4,
+          "label": "H4",
+          "mu0": 0.385,
+          "mu1": 0.391,
+          "ite": 0.006,
+          "ite_upper": 0.049,
+          "ite_lower": -0.037,
+          "fluids_vitals": {
+            "map": 62.7,
+            "lactate": 3.21,
+            "hr": 104.9,
+            "spo2": 94.7,
+            "urine": 33.4
+          },
+          "vaso_vitals": {
+            "map": 68.8,
+            "lactate": 2.48,
+            "hr": 99.6,
+            "spo2": 96.0,
+            "urine": 43.4
+          }
+        },
+        {
+          "hour": 5,
+          "label": "H5",
+          "mu0": 0.381,
+          "mu1": 0.403,
+          "ite": 0.021,
+          "ite_upper": 0.066,
+          "ite_lower": -0.024,
+          "fluids_vitals": {
+            "map": 62.8,
+            "lactate": 3.25,
+            "hr": 104.9,
+            "spo2": 94.4,
+            "urine": 32.4
+          },
+          "vaso_vitals": {
+            "map": 70.4,
+            "lactate": 2.36,
+            "hr": 98.7,
+            "spo2": 96.0,
+            "urine": 44.9
+          }
+        },
+        {
+          "hour": 6,
+          "label": "H6",
+          "mu0": 0.377,
+          "mu1": 0.428,
+          "ite": 0.051,
+          "ite_upper": 0.098,
+          "ite_lower": 0.004,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.34,
+            "hr": 104.9,
+            "spo2": 94.1,
+            "urine": 31.8
+          },
+          "vaso_vitals": {
+            "map": 71.7,
+            "lactate": 2.25,
+            "hr": 97.6,
+            "spo2": 96.0,
+            "urine": 46.0
+          }
+        },
+        {
+          "hour": 7,
+          "label": "H7",
+          "mu0": 0.374,
+          "mu1": 0.429,
+          "ite": 0.055,
+          "ite_upper": 0.104,
+          "ite_lower": 0.006,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.42,
+            "hr": 104.8,
+            "spo2": 93.7,
+            "urine": 30.8
+          },
+          "vaso_vitals": {
+            "map": 73.2,
+            "lactate": 2.13,
+            "hr": 96.5,
+            "spo2": 96.0,
+            "urine": 47.3
+          }
+        },
+        {
+          "hour": 8,
+          "label": "H8",
+          "mu0": 0.351,
+          "mu1": 0.414,
+          "ite": 0.063,
+          "ite_upper": 0.114,
+          "ite_lower": 0.012,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.49,
+            "hr": 104.7,
+            "spo2": 93.4,
+            "urine": 29.8
+          },
+          "vaso_vitals": {
+            "map": 75.0,
+            "lactate": 1.95,
+            "hr": 95.3,
+            "spo2": 96.0,
+            "urine": 49.0
+          }
+        },
+        {
+          "hour": 9,
+          "label": "H9",
+          "mu0": 0.329,
+          "mu1": 0.419,
+          "ite": 0.09,
+          "ite_upper": 0.143,
+          "ite_lower": 0.037,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.56,
+            "hr": 104.6,
+            "spo2": 93.1,
+            "urine": 28.6
+          },
+          "vaso_vitals": {
+            "map": 76.6,
+            "lactate": 1.86,
+            "hr": 94.3,
+            "spo2": 96.0,
+            "urine": 50.0
+          }
+        },
+        {
+          "hour": 10,
+          "label": "H10",
+          "mu0": 0.313,
+          "mu1": 0.415,
+          "ite": 0.102,
+          "ite_upper": 0.157,
+          "ite_lower": 0.047,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.63,
+            "hr": 104.4,
+            "spo2": 92.7,
+            "urine": 27.9
+          },
+          "vaso_vitals": {
+            "map": 78.3,
+            "lactate": 1.73,
+            "hr": 93.5,
+            "spo2": 96.0,
+            "urine": 51.5
+          }
+        },
+        {
+          "hour": 11,
+          "label": "H11",
+          "mu0": 0.285,
+          "mu1": 0.401,
+          "ite": 0.115,
+          "ite_upper": 0.172,
+          "ite_lower": 0.058,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.7,
+            "hr": 104.3,
+            "spo2": 92.4,
+            "urine": 26.7
+          },
+          "vaso_vitals": {
+            "map": 80.0,
+            "lactate": 1.62,
+            "hr": 92.2,
+            "spo2": 96.0,
+            "urine": 52.7
+          }
+        },
+        {
+          "hour": 12,
+          "label": "H12",
+          "mu0": 0.277,
+          "mu1": 0.376,
+          "ite": 0.099,
+          "ite_upper": 0.158,
+          "ite_lower": 0.04,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.77,
+            "hr": 104.3,
+            "spo2": 92.1,
+            "urine": 25.7
+          },
+          "vaso_vitals": {
+            "map": 81.3,
+            "lactate": 1.53,
+            "hr": 90.9,
+            "spo2": 96.0,
+            "urine": 53.7
+          }
+        },
+        {
+          "hour": 13,
+          "label": "H13",
+          "mu0": 0.252,
+          "mu1": 0.369,
+          "ite": 0.118,
+          "ite_upper": 0.179,
+          "ite_lower": 0.057,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.84,
+            "hr": 104.3,
+            "spo2": 91.7,
+            "urine": 24.6
+          },
+          "vaso_vitals": {
+            "map": 83.0,
+            "lactate": 1.41,
+            "hr": 89.4,
+            "spo2": 96.0,
+            "urine": 54.6
+          }
+        },
+        {
+          "hour": 14,
+          "label": "H14",
+          "mu0": 0.211,
+          "mu1": 0.342,
+          "ite": 0.131,
+          "ite_upper": 0.194,
+          "ite_lower": 0.068,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.88,
+            "hr": 104.3,
+            "spo2": 91.3,
+            "urine": 23.4
+          },
+          "vaso_vitals": {
+            "map": 84.8,
+            "lactate": 1.23,
+            "hr": 88.3,
+            "spo2": 96.0,
+            "urine": 55.7
+          }
+        },
+        {
+          "hour": 15,
+          "label": "H15",
+          "mu0": 0.201,
+          "mu1": 0.339,
+          "ite": 0.138,
+          "ite_upper": 0.203,
+          "ite_lower": 0.073,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.94,
+            "hr": 104.3,
+            "spo2": 91.0,
+            "urine": 22.3
+          },
+          "vaso_vitals": {
+            "map": 86.4,
+            "lactate": 1.11,
+            "hr": 87.2,
+            "spo2": 96.0,
+            "urine": 57.0
+          }
+        },
+        {
+          "hour": 16,
+          "label": "H16",
+          "mu0": 0.173,
+          "mu1": 0.308,
+          "ite": 0.136,
+          "ite_upper": 0.203,
+          "ite_lower": 0.069,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 3.99,
+            "hr": 101.7,
+            "spo2": 90.7,
+            "urine": 21.2
+          },
+          "vaso_vitals": {
+            "map": 88.1,
+            "lactate": 0.99,
+            "hr": 86.0,
+            "spo2": 96.0,
+            "urine": 58.5
+          }
+        },
+        {
+          "hour": 17,
+          "label": "H17",
+          "mu0": 0.167,
+          "mu1": 0.294,
+          "ite": 0.127,
+          "ite_upper": 0.196,
+          "ite_lower": 0.058,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 4.08,
+            "hr": 98.2,
+            "spo2": 90.4,
+            "urine": 20.4
+          },
+          "vaso_vitals": {
+            "map": 89.7,
+            "lactate": 0.85,
+            "hr": 84.9,
+            "spo2": 96.0,
+            "urine": 60.1
+          }
+        },
+        {
+          "hour": 18,
+          "label": "H18",
+          "mu0": 0.158,
+          "mu1": 0.289,
+          "ite": 0.131,
+          "ite_upper": 0.202,
+          "ite_lower": 0.06,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 4.15,
+            "hr": 95.0,
+            "spo2": 90.1,
+            "urine": 19.2
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.72,
+            "hr": 83.7,
+            "spo2": 96.0,
+            "urine": 61.6
+          }
+        },
+        {
+          "hour": 19,
+          "label": "H19",
+          "mu0": 0.158,
+          "mu1": 0.291,
+          "ite": 0.133,
+          "ite_upper": 0.206,
+          "ite_lower": 0.06,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 4.21,
+            "hr": 91.3,
+            "spo2": 89.7,
+            "urine": 18.5
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.59,
+            "hr": 82.4,
+            "spo2": 96.0,
+            "urine": 63.3
+          }
+        },
+        {
+          "hour": 20,
+          "label": "H20",
+          "mu0": 0.158,
+          "mu1": 0.293,
+          "ite": 0.135,
+          "ite_upper": 0.21,
+          "ite_lower": 0.06,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 4.3,
+            "hr": 88.0,
+            "spo2": 89.4,
+            "urine": 17.5
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 81.0,
+            "spo2": 96.0,
+            "urine": 64.9
+          }
+        },
+        {
+          "hour": 21,
+          "label": "H21",
+          "mu0": 0.158,
+          "mu1": 0.289,
+          "ite": 0.131,
+          "ite_upper": 0.208,
+          "ite_lower": 0.054,
+          "fluids_vitals": {
+            "map": 62.9,
+            "lactate": 4.36,
+            "hr": 84.7,
+            "spo2": 89.1,
+            "urine": 16.6
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 79.8,
+            "spo2": 96.0,
+            "urine": 66.3
+          }
+        },
+        {
+          "hour": 22,
+          "label": "H22",
+          "mu0": 0.151,
+          "mu1": 0.293,
+          "ite": 0.141,
+          "ite_upper": 0.22,
+          "ite_lower": 0.062,
+          "fluids_vitals": {
+            "map": 63.0,
+            "lactate": 4.42,
+            "hr": 81.5,
+            "spo2": 88.7,
+            "urine": 15.8
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 78.5,
+            "spo2": 96.0,
+            "urine": 67.4
+          }
+        },
+        {
+          "hour": 23,
+          "label": "H23",
+          "mu0": 0.151,
+          "mu1": 0.3,
+          "ite": 0.149,
+          "ite_upper": 0.23,
+          "ite_lower": 0.068,
+          "fluids_vitals": {
+            "map": 63.0,
+            "lactate": 4.48,
+            "hr": 77.9,
+            "spo2": 88.4,
+            "urine": 14.9
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 77.5,
+            "spo2": 96.0,
+            "urine": 68.1
+          }
+        }
+      ]
+    },
+    {
+      "admission": {
+        "sofa": 14,
+        "map": 48,
+        "lactate": 6.8,
+        "age": 72,
+        "creatinine": 2.9,
+        "hr": 132,
+        "spo2": 91,
+        "urine": 12
+      },
+      "pivot_hour": 2,
+      "no_return_hour": 13,
+      "hourly": [
+        {
+          "hour": 0,
+          "label": "H0",
+          "mu0": 0.089,
+          "mu1": 0.113,
+          "ite": 0.024,
+          "ite_upper": 0.059,
+          "ite_lower": -0.011,
+          "fluids_vitals": {
+            "map": 48.0,
+            "lactate": 6.8,
+            "hr": 132.0,
+            "spo2": 91.0,
+            "urine": 12.0
+          },
+          "vaso_vitals": {
+            "map": 48.0,
+            "lactate": 6.8,
+            "hr": 132.0,
+            "spo2": 91.0,
+            "urine": 12.0
+          }
+        },
+        {
+          "hour": 1,
+          "label": "H1",
+          "mu0": 0.082,
+          "mu1": 0.113,
+          "ite": 0.03,
+          "ite_upper": 0.067,
+          "ite_lower": -0.007,
+          "fluids_vitals": {
+            "map": 47.7,
+            "lactate": 6.93,
+            "hr": 132.0,
+            "spo2": 90.7,
+            "urine": 11.0
+          },
+          "vaso_vitals": {
+            "map": 49.5,
+            "lactate": 6.67,
+            "hr": 130.7,
+            "spo2": 91.1,
+            "urine": 13.5
+          }
+        },
+        {
+          "hour": 2,
+          "label": "H2",
+          "mu0": 0.074,
+          "mu1": 0.134,
+          "ite": 0.06,
+          "ite_upper": 0.099,
+          "ite_lower": 0.021,
+          "fluids_vitals": {
+            "map": 47.4,
+            "lactate": 7.03,
+            "hr": 132.0,
+            "spo2": 90.4,
+            "urine": 9.8
+          },
+          "vaso_vitals": {
+            "map": 50.9,
+            "lactate": 6.52,
+            "hr": 129.6,
+            "spo2": 91.1,
+            "urine": 14.9
+          }
+        },
+        {
+          "hour": 3,
+          "label": "H3",
+          "mu0": 0.07,
+          "mu1": 0.155,
+          "ite": 0.086,
+          "ite_upper": 0.127,
+          "ite_lower": 0.045,
+          "fluids_vitals": {
+            "map": 47.2,
+            "lactate": 7.16,
+            "hr": 131.9,
+            "spo2": 90.1,
+            "urine": 9.0
+          },
+          "vaso_vitals": {
+            "map": 52.5,
+            "lactate": 6.38,
+            "hr": 128.5,
+            "spo2": 91.1,
+            "urine": 16.5
+          }
+        },
+        {
+          "hour": 4,
+          "label": "H4",
+          "mu0": 0.054,
+          "mu1": 0.154,
+          "ite": 0.1,
+          "ite_upper": 0.143,
+          "ite_lower": 0.057,
+          "fluids_vitals": {
+            "map": 47.1,
+            "lactate": 7.29,
+            "hr": 131.8,
+            "spo2": 89.8,
+            "urine": 7.9
+          },
+          "vaso_vitals": {
+            "map": 53.9,
+            "lactate": 6.23,
+            "hr": 127.6,
+            "spo2": 91.1,
+            "urine": 18.2
+          }
+        },
+        {
+          "hour": 5,
+          "label": "H5",
+          "mu0": 0.048,
+          "mu1": 0.156,
+          "ite": 0.108,
+          "ite_upper": 0.153,
+          "ite_lower": 0.063,
+          "fluids_vitals": {
+            "map": 46.9,
+            "lactate": 7.41,
+            "hr": 131.8,
+            "spo2": 89.5,
+            "urine": 6.8
+          },
+          "vaso_vitals": {
+            "map": 55.6,
+            "lactate": 6.11,
+            "hr": 126.3,
+            "spo2": 91.1,
+            "urine": 19.8
+          }
+        },
+        {
+          "hour": 6,
+          "label": "H6",
+          "mu0": 0.047,
+          "mu1": 0.156,
+          "ite": 0.11,
+          "ite_upper": 0.157,
+          "ite_lower": 0.063,
+          "fluids_vitals": {
+            "map": 46.7,
+            "lactate": 7.56,
+            "hr": 131.7,
+            "spo2": 89.2,
+            "urine": 6.0
+          },
+          "vaso_vitals": {
+            "map": 57.2,
+            "lactate": 5.97,
+            "hr": 125.3,
+            "spo2": 91.1,
+            "urine": 21.1
+          }
+        },
+        {
+          "hour": 7,
+          "label": "H7",
+          "mu0": 0.039,
+          "mu1": 0.133,
+          "ite": 0.094,
+          "ite_upper": 0.143,
+          "ite_lower": 0.045,
+          "fluids_vitals": {
+            "map": 46.6,
+            "lactate": 7.68,
+            "hr": 131.6,
+            "spo2": 88.9,
+            "urine": 5.1
+          },
+          "vaso_vitals": {
+            "map": 58.7,
+            "lactate": 5.82,
+            "hr": 124.3,
+            "spo2": 91.1,
+            "urine": 22.5
+          }
+        },
+        {
+          "hour": 8,
+          "label": "H8",
+          "mu0": 0.04,
+          "mu1": 0.119,
+          "ite": 0.079,
+          "ite_upper": 0.13,
+          "ite_lower": 0.028,
+          "fluids_vitals": {
+            "map": 46.6,
+            "lactate": 7.84,
+            "hr": 131.5,
+            "spo2": 88.6,
+            "urine": 4.0
+          },
+          "vaso_vitals": {
+            "map": 60.1,
+            "lactate": 5.72,
+            "hr": 123.6,
+            "spo2": 91.1,
+            "urine": 24.1
+          }
+        },
+        {
+          "hour": 9,
+          "label": "H9",
+          "mu0": 0.039,
+          "mu1": 0.105,
+          "ite": 0.066,
+          "ite_upper": 0.119,
+          "ite_lower": 0.013,
+          "fluids_vitals": {
+            "map": 46.6,
+            "lactate": 7.96,
+            "hr": 131.4,
+            "spo2": 88.3,
+            "urine": 3.1
+          },
+          "vaso_vitals": {
+            "map": 61.6,
+            "lactate": 5.59,
+            "hr": 122.2,
+            "spo2": 91.1,
+            "urine": 25.7
+          }
+        },
+        {
+          "hour": 10,
+          "label": "H10",
+          "mu0": 0.038,
+          "mu1": 0.076,
+          "ite": 0.038,
+          "ite_upper": 0.093,
+          "ite_lower": -0.017,
+          "fluids_vitals": {
+            "map": 46.6,
+            "lactate": 8.13,
+            "hr": 131.4,
+            "spo2": 88.0,
+            "urine": 2.1
+          },
+          "vaso_vitals": {
+            "map": 63.1,
+            "lactate": 5.45,
+            "hr": 121.1,
+            "spo2": 91.1,
+            "urine": 27.1
+          }
+        },
+        {
+          "hour": 11,
+          "label": "H11",
+          "mu0": 0.037,
+          "mu1": 0.075,
+          "ite": 0.038,
+          "ite_upper": 0.095,
+          "ite_lower": -0.019,
+          "fluids_vitals": {
+            "map": 46.7,
+            "lactate": 8.26,
+            "hr": 131.4,
+            "spo2": 87.7,
+            "urine": 1.3
+          },
+          "vaso_vitals": {
+            "map": 64.5,
+            "lactate": 5.33,
+            "hr": 120.0,
+            "spo2": 91.1,
+            "urine": 28.4
+          }
+        },
+        {
+          "hour": 12,
+          "label": "H12",
+          "mu0": 0.037,
+          "mu1": 0.061,
+          "ite": 0.024,
+          "ite_upper": 0.083,
+          "ite_lower": -0.035,
+          "fluids_vitals": {
+            "map": 46.6,
+            "lactate": 8.34,
+            "hr": 131.4,
+            "spo2": 87.4,
+            "urine": 0.9
+          },
+          "vaso_vitals": {
+            "map": 65.9,
+            "lactate": 5.18,
+            "hr": 118.9,
+            "spo2": 91.1,
+            "urine": 30.2
+          }
+        },
+        {
+          "hour": 13,
+          "label": "H13",
+          "mu0": 0.037,
+          "mu1": 0.044,
+          "ite": 0.007,
+          "ite_upper": 0.068,
+          "ite_lower": -0.054,
+          "fluids_vitals": {
+            "map": 46.5,
+            "lactate": 8.49,
+            "hr": 131.4,
+            "spo2": 87.2,
+            "urine": 0.5
+          },
+          "vaso_vitals": {
+            "map": 67.6,
+            "lactate": 5.08,
+            "hr": 117.8,
+            "spo2": 91.1,
+            "urine": 31.7
+          }
+        },
+        {
+          "hour": 14,
+          "label": "H14",
+          "mu0": 0.037,
+          "mu1": 0.032,
+          "ite": -0.005,
+          "ite_upper": 0.058,
+          "ite_lower": -0.068,
+          "fluids_vitals": {
+            "map": 45.9,
+            "lactate": 8.66,
+            "hr": 131.4,
+            "spo2": 86.9,
+            "urine": 0.3
+          },
+          "vaso_vitals": {
+            "map": 69.6,
+            "lactate": 4.95,
+            "hr": 116.5,
+            "spo2": 91.1,
+            "urine": 33.0
+          }
+        },
+        {
+          "hour": 15,
+          "label": "H15",
+          "mu0": 0.037,
+          "mu1": 0.03,
+          "ite": -0.007,
+          "ite_upper": 0.058,
+          "ite_lower": -0.072,
+          "fluids_vitals": {
+            "map": 45.7,
+            "lactate": 8.79,
+            "hr": 131.4,
+            "spo2": 86.7,
+            "urine": 0.2
+          },
+          "vaso_vitals": {
+            "map": 71.3,
+            "lactate": 4.82,
+            "hr": 115.0,
+            "spo2": 91.1,
+            "urine": 34.5
+          }
+        },
+        {
+          "hour": 16,
+          "label": "H16",
+          "mu0": 0.037,
+          "mu1": 0.03,
+          "ite": -0.007,
+          "ite_upper": 0.06,
+          "ite_lower": -0.074,
+          "fluids_vitals": {
+            "map": 45.5,
+            "lactate": 8.92,
+            "hr": 128.3,
+            "spo2": 86.4,
+            "urine": 0.2
+          },
+          "vaso_vitals": {
+            "map": 72.9,
+            "lactate": 4.72,
+            "hr": 113.2,
+            "spo2": 91.1,
+            "urine": 36.0
+          }
+        },
+        {
+          "hour": 17,
+          "label": "H17",
+          "mu0": 0.036,
+          "mu1": 0.03,
+          "ite": -0.006,
+          "ite_upper": 0.063,
+          "ite_lower": -0.075,
+          "fluids_vitals": {
+            "map": 45.0,
+            "lactate": 9.07,
+            "hr": 124.9,
+            "spo2": 86.2,
+            "urine": 0.1
+          },
+          "vaso_vitals": {
+            "map": 74.2,
+            "lactate": 4.6,
+            "hr": 111.7,
+            "spo2": 91.1,
+            "urine": 37.5
+          }
+        },
+        {
+          "hour": 18,
+          "label": "H18",
+          "mu0": 0.036,
+          "mu1": 0.03,
+          "ite": -0.006,
+          "ite_upper": 0.065,
+          "ite_lower": -0.077,
+          "fluids_vitals": {
+            "map": 44.4,
+            "lactate": 9.19,
+            "hr": 122.1,
+            "spo2": 85.9,
+            "urine": 0.1
+          },
+          "vaso_vitals": {
+            "map": 75.7,
+            "lactate": 4.45,
+            "hr": 110.6,
+            "spo2": 91.1,
+            "urine": 38.9
+          }
+        },
+        {
+          "hour": 19,
+          "label": "H19",
+          "mu0": 0.037,
+          "mu1": 0.03,
+          "ite": -0.007,
+          "ite_upper": 0.066,
+          "ite_lower": -0.08,
+          "fluids_vitals": {
+            "map": 44.2,
+            "lactate": 9.35,
+            "hr": 119.1,
+            "spo2": 85.7,
+            "urine": 0.1
+          },
+          "vaso_vitals": {
+            "map": 77.4,
+            "lactate": 4.3,
+            "hr": 109.2,
+            "spo2": 91.1,
+            "urine": 40.5
+          }
+        },
+        {
+          "hour": 20,
+          "label": "H20",
+          "mu0": 0.035,
+          "mu1": 0.03,
+          "ite": -0.005,
+          "ite_upper": 0.07,
+          "ite_lower": -0.08,
+          "fluids_vitals": {
+            "map": 44.2,
+            "lactate": 9.5,
+            "hr": 115.7,
+            "spo2": 85.4,
+            "urine": 0.1
+          },
+          "vaso_vitals": {
+            "map": 78.7,
+            "lactate": 4.15,
+            "hr": 107.6,
+            "spo2": 91.1,
+            "urine": 42.2
+          }
+        },
+        {
+          "hour": 21,
+          "label": "H21",
+          "mu0": 0.036,
+          "mu1": 0.03,
+          "ite": -0.006,
+          "ite_upper": 0.071,
+          "ite_lower": -0.083,
+          "fluids_vitals": {
+            "map": 44.2,
+            "lactate": 9.59,
+            "hr": 112.1,
+            "spo2": 85.2,
+            "urine": 0.1
+          },
+          "vaso_vitals": {
+            "map": 80.4,
+            "lactate": 4.01,
+            "hr": 106.2,
+            "spo2": 91.1,
+            "urine": 44.0
+          }
+        },
+        {
+          "hour": 22,
+          "label": "H22",
+          "mu0": 0.036,
+          "mu1": 0.03,
+          "ite": -0.006,
+          "ite_upper": 0.073,
+          "ite_lower": -0.085,
+          "fluids_vitals": {
+            "map": 44.2,
+            "lactate": 9.74,
+            "hr": 108.9,
+            "spo2": 84.8,
+            "urine": 0.1
+          },
+          "vaso_vitals": {
+            "map": 81.8,
+            "lactate": 3.87,
+            "hr": 104.7,
+            "spo2": 91.1,
+            "urine": 45.1
+          }
+        },
+        {
+          "hour": 23,
+          "label": "H23",
+          "mu0": 0.036,
+          "mu1": 0.03,
+          "ite": -0.006,
+          "ite_upper": 0.075,
+          "ite_lower": -0.087,
+          "fluids_vitals": {
+            "map": 44.2,
+            "lactate": 9.94,
+            "hr": 105.4,
+            "spo2": 84.5,
+            "urine": 0.1
+          },
+          "vaso_vitals": {
+            "map": 83.3,
+            "lactate": 3.73,
+            "hr": 103.5,
+            "spo2": 91.1,
+            "urine": 47.0
+          }
+        }
+      ]
+    },
+    {
+      "admission": {
+        "sofa": 13,
+        "map": 52,
+        "lactate": 5.1,
+        "age": 81,
+        "creatinine": 2.6,
+        "hr": 124,
+        "spo2": 92,
+        "urine": 16
+      },
+      "pivot_hour": 0,
+      "no_return_hour": 20,
+      "hourly": [
+        {
+          "hour": 0,
+          "label": "H0",
+          "mu0": 0.095,
+          "mu1": 0.166,
+          "ite": 0.071,
+          "ite_upper": 0.106,
+          "ite_lower": 0.036,
+          "fluids_vitals": {
+            "map": 52.0,
+            "lactate": 5.1,
+            "hr": 124.0,
+            "spo2": 92.0,
+            "urine": 16.0
+          },
+          "vaso_vitals": {
+            "map": 52.0,
+            "lactate": 5.1,
+            "hr": 124.0,
+            "spo2": 92.0,
+            "urine": 16.0
+          }
+        },
+        {
+          "hour": 1,
+          "label": "H1",
+          "mu0": 0.089,
+          "mu1": 0.168,
+          "ite": 0.079,
+          "ite_upper": 0.116,
+          "ite_lower": 0.042,
+          "fluids_vitals": {
+            "map": 51.5,
+            "lactate": 5.2,
+            "hr": 124.3,
+            "spo2": 91.7,
+            "urine": 15.1
+          },
+          "vaso_vitals": {
+            "map": 53.2,
+            "lactate": 4.98,
+            "hr": 123.0,
+            "spo2": 92.1,
+            "urine": 17.6
+          }
+        },
+        {
+          "hour": 2,
+          "label": "H2",
+          "mu0": 0.082,
+          "mu1": 0.173,
+          "ite": 0.091,
+          "ite_upper": 0.13,
+          "ite_lower": 0.052,
+          "fluids_vitals": {
+            "map": 51.5,
+            "lactate": 5.33,
+            "hr": 125.1,
+            "spo2": 91.4,
+            "urine": 14.0
+          },
+          "vaso_vitals": {
+            "map": 55.0,
+            "lactate": 4.89,
+            "hr": 121.8,
+            "spo2": 92.2,
+            "urine": 19.0
+          }
+        },
+        {
+          "hour": 3,
+          "label": "H3",
+          "mu0": 0.079,
+          "mu1": 0.189,
+          "ite": 0.11,
+          "ite_upper": 0.151,
+          "ite_lower": 0.069,
+          "fluids_vitals": {
+            "map": 51.5,
+            "lactate": 5.43,
+            "hr": 125.3,
+            "spo2": 91.2,
+            "urine": 13.2
+          },
+          "vaso_vitals": {
+            "map": 56.7,
+            "lactate": 4.83,
+            "hr": 120.9,
+            "spo2": 92.3,
+            "urine": 20.5
+          }
+        },
+        {
+          "hour": 4,
+          "label": "H4",
+          "mu0": 0.061,
+          "mu1": 0.193,
+          "ite": 0.132,
+          "ite_upper": 0.175,
+          "ite_lower": 0.089,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 5.56,
+            "hr": 125.7,
+            "spo2": 90.9,
+            "urine": 12.5
+          },
+          "vaso_vitals": {
+            "map": 58.1,
+            "lactate": 4.74,
+            "hr": 119.9,
+            "spo2": 92.4,
+            "urine": 22.3
+          }
+        },
+        {
+          "hour": 5,
+          "label": "H5",
+          "mu0": 0.056,
+          "mu1": 0.201,
+          "ite": 0.145,
+          "ite_upper": 0.19,
+          "ite_lower": 0.1,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 5.68,
+            "hr": 125.8,
+            "spo2": 90.7,
+            "urine": 11.8
+          },
+          "vaso_vitals": {
+            "map": 59.4,
+            "lactate": 4.61,
+            "hr": 119.0,
+            "spo2": 92.5,
+            "urine": 24.0
+          }
+        },
+        {
+          "hour": 6,
+          "label": "H6",
+          "mu0": 0.049,
+          "mu1": 0.203,
+          "ite": 0.153,
+          "ite_upper": 0.2,
+          "ite_lower": 0.106,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 5.77,
+            "hr": 125.7,
+            "spo2": 90.4,
+            "urine": 10.8
+          },
+          "vaso_vitals": {
+            "map": 60.9,
+            "lactate": 4.51,
+            "hr": 117.9,
+            "spo2": 92.6,
+            "urine": 25.4
+          }
+        },
+        {
+          "hour": 7,
+          "label": "H7",
+          "mu0": 0.042,
+          "mu1": 0.203,
+          "ite": 0.161,
+          "ite_upper": 0.21,
+          "ite_lower": 0.112,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 5.86,
+            "hr": 125.6,
+            "spo2": 90.2,
+            "urine": 9.9
+          },
+          "vaso_vitals": {
+            "map": 62.4,
+            "lactate": 4.37,
+            "hr": 116.6,
+            "spo2": 92.7,
+            "urine": 27.1
+          }
+        },
+        {
+          "hour": 8,
+          "label": "H8",
+          "mu0": 0.042,
+          "mu1": 0.203,
+          "ite": 0.16,
+          "ite_upper": 0.211,
+          "ite_lower": 0.109,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 5.95,
+            "hr": 125.6,
+            "spo2": 90.0,
+            "urine": 9.0
+          },
+          "vaso_vitals": {
+            "map": 63.7,
+            "lactate": 4.22,
+            "hr": 115.8,
+            "spo2": 92.9,
+            "urine": 28.5
+          }
+        },
+        {
+          "hour": 9,
+          "label": "H9",
+          "mu0": 0.039,
+          "mu1": 0.191,
+          "ite": 0.152,
+          "ite_upper": 0.205,
+          "ite_lower": 0.099,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 6.04,
+            "hr": 125.6,
+            "spo2": 89.7,
+            "urine": 7.9
+          },
+          "vaso_vitals": {
+            "map": 65.2,
+            "lactate": 4.1,
+            "hr": 114.6,
+            "spo2": 93.1,
+            "urine": 30.2
+          }
+        },
+        {
+          "hour": 10,
+          "label": "H10",
+          "mu0": 0.037,
+          "mu1": 0.166,
+          "ite": 0.129,
+          "ite_upper": 0.184,
+          "ite_lower": 0.074,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 6.15,
+            "hr": 125.6,
+            "spo2": 89.4,
+            "urine": 6.8
+          },
+          "vaso_vitals": {
+            "map": 67.0,
+            "lactate": 3.96,
+            "hr": 113.5,
+            "spo2": 93.2,
+            "urine": 31.7
+          }
+        },
+        {
+          "hour": 11,
+          "label": "H11",
+          "mu0": 0.035,
+          "mu1": 0.149,
+          "ite": 0.115,
+          "ite_upper": 0.172,
+          "ite_lower": 0.058,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 6.23,
+            "hr": 125.6,
+            "spo2": 89.1,
+            "urine": 6.0
+          },
+          "vaso_vitals": {
+            "map": 68.8,
+            "lactate": 3.78,
+            "hr": 112.4,
+            "spo2": 93.3,
+            "urine": 33.0
+          }
+        },
+        {
+          "hour": 12,
+          "label": "H12",
+          "mu0": 0.034,
+          "mu1": 0.14,
+          "ite": 0.107,
+          "ite_upper": 0.166,
+          "ite_lower": 0.048,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 6.36,
+            "hr": 125.6,
+            "spo2": 88.7,
+            "urine": 5.0
+          },
+          "vaso_vitals": {
+            "map": 70.5,
+            "lactate": 3.65,
+            "hr": 111.1,
+            "spo2": 93.4,
+            "urine": 34.5
+          }
+        },
+        {
+          "hour": 13,
+          "label": "H13",
+          "mu0": 0.036,
+          "mu1": 0.123,
+          "ite": 0.087,
+          "ite_upper": 0.148,
+          "ite_lower": 0.026,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 6.48,
+            "hr": 125.6,
+            "spo2": 88.4,
+            "urine": 3.8
+          },
+          "vaso_vitals": {
+            "map": 72.1,
+            "lactate": 3.49,
+            "hr": 109.6,
+            "spo2": 93.5,
+            "urine": 36.0
+          }
+        },
+        {
+          "hour": 14,
+          "label": "H14",
+          "mu0": 0.033,
+          "mu1": 0.114,
+          "ite": 0.081,
+          "ite_upper": 0.144,
+          "ite_lower": 0.018,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 6.61,
+            "hr": 125.6,
+            "spo2": 88.1,
+            "urine": 2.8
+          },
+          "vaso_vitals": {
+            "map": 73.5,
+            "lactate": 3.37,
+            "hr": 108.5,
+            "spo2": 93.6,
+            "urine": 37.5
+          }
+        },
+        {
+          "hour": 15,
+          "label": "H15",
+          "mu0": 0.035,
+          "mu1": 0.093,
+          "ite": 0.058,
+          "ite_upper": 0.123,
+          "ite_lower": -0.007,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 6.68,
+            "hr": 125.5,
+            "spo2": 87.7,
+            "urine": 1.8
+          },
+          "vaso_vitals": {
+            "map": 75.0,
+            "lactate": 3.23,
+            "hr": 107.4,
+            "spo2": 93.6,
+            "urine": 38.9
+          }
+        },
+        {
+          "hour": 16,
+          "label": "H16",
+          "mu0": 0.034,
+          "mu1": 0.082,
+          "ite": 0.048,
+          "ite_upper": 0.115,
+          "ite_lower": -0.019,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 6.76,
+            "hr": 122.6,
+            "spo2": 87.4,
+            "urine": 1.0
+          },
+          "vaso_vitals": {
+            "map": 76.6,
+            "lactate": 3.06,
+            "hr": 106.2,
+            "spo2": 93.6,
+            "urine": 40.5
+          }
+        },
+        {
+          "hour": 17,
+          "label": "H17",
+          "mu0": 0.037,
+          "mu1": 0.077,
+          "ite": 0.041,
+          "ite_upper": 0.11,
+          "ite_lower": -0.028,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 6.87,
+            "hr": 119.6,
+            "spo2": 87.1,
+            "urine": 0.5
+          },
+          "vaso_vitals": {
+            "map": 78.3,
+            "lactate": 2.9,
+            "hr": 104.7,
+            "spo2": 93.6,
+            "urine": 42.2
+          }
+        },
+        {
+          "hour": 18,
+          "label": "H18",
+          "mu0": 0.034,
+          "mu1": 0.056,
+          "ite": 0.022,
+          "ite_upper": 0.093,
+          "ite_lower": -0.049,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 6.99,
+            "hr": 116.6,
+            "spo2": 86.8,
+            "urine": 0.2
+          },
+          "vaso_vitals": {
+            "map": 80.0,
+            "lactate": 2.8,
+            "hr": 103.5,
+            "spo2": 93.6,
+            "urine": 44.0
+          }
+        },
+        {
+          "hour": 19,
+          "label": "H19",
+          "mu0": 0.036,
+          "mu1": 0.05,
+          "ite": 0.014,
+          "ite_upper": 0.087,
+          "ite_lower": -0.059,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 7.14,
+            "hr": 113.3,
+            "spo2": 86.5,
+            "urine": 0.2
+          },
+          "vaso_vitals": {
+            "map": 81.3,
+            "lactate": 2.66,
+            "hr": 102.3,
+            "spo2": 93.6,
+            "urine": 45.1
+          }
+        },
+        {
+          "hour": 20,
+          "label": "H20",
+          "mu0": 0.035,
+          "mu1": 0.037,
+          "ite": 0.002,
+          "ite_upper": 0.077,
+          "ite_lower": -0.073,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 7.28,
+            "hr": 109.8,
+            "spo2": 86.2,
+            "urine": 0.2
+          },
+          "vaso_vitals": {
+            "map": 83.0,
+            "lactate": 2.49,
+            "hr": 101.1,
+            "spo2": 93.6,
+            "urine": 47.0
+          }
+        },
+        {
+          "hour": 21,
+          "label": "H21",
+          "mu0": 0.035,
+          "mu1": 0.04,
+          "ite": 0.004,
+          "ite_upper": 0.081,
+          "ite_lower": -0.073,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 7.41,
+            "hr": 106.3,
+            "spo2": 85.9,
+            "urine": 0.2
+          },
+          "vaso_vitals": {
+            "map": 84.8,
+            "lactate": 2.36,
+            "hr": 99.5,
+            "spo2": 93.6,
+            "urine": 48.1
+          }
+        },
+        {
+          "hour": 22,
+          "label": "H22",
+          "mu0": 0.037,
+          "mu1": 0.049,
+          "ite": 0.011,
+          "ite_upper": 0.09,
+          "ite_lower": -0.068,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 7.56,
+            "hr": 102.9,
+            "spo2": 85.7,
+            "urine": 0.2
+          },
+          "vaso_vitals": {
+            "map": 86.4,
+            "lactate": 2.24,
+            "hr": 98.4,
+            "spo2": 93.6,
+            "urine": 49.3
+          }
+        },
+        {
+          "hour": 23,
+          "label": "H23",
+          "mu0": 0.037,
+          "mu1": 0.055,
+          "ite": 0.017,
+          "ite_upper": 0.098,
+          "ite_lower": -0.064,
+          "fluids_vitals": {
+            "map": 51.6,
+            "lactate": 7.69,
+            "hr": 99.8,
+            "spo2": 85.4,
+            "urine": 0.2
+          },
+          "vaso_vitals": {
+            "map": 88.1,
+            "lactate": 2.13,
+            "hr": 96.9,
+            "spo2": 93.6,
+            "urine": 50.6
+          }
+        }
+      ]
+    },
+    {
+      "admission": {
+        "sofa": 9,
+        "map": 61,
+        "lactate": 3.4,
+        "age": 58,
+        "creatinine": 1.4,
+        "hr": 112,
+        "spo2": 95,
+        "urine": 26
+      },
+      "pivot_hour": 9,
+      "no_return_hour": 19,
+      "hourly": [
+        {
+          "hour": 0,
+          "label": "H0",
+          "mu0": 0.337,
+          "mu1": 0.262,
+          "ite": -0.075,
+          "ite_upper": -0.04,
+          "ite_lower": -0.11,
+          "fluids_vitals": {
+            "map": 61.0,
+            "lactate": 3.4,
+            "hr": 112.0,
+            "spo2": 95.0,
+            "urine": 26.0
+          },
+          "vaso_vitals": {
+            "map": 61.0,
+            "lactate": 3.4,
+            "hr": 112.0,
+            "spo2": 95.0,
+            "urine": 26.0
+          }
+        },
+        {
+          "hour": 1,
+          "label": "H1",
+          "mu0": 0.335,
+          "mu1": 0.262,
+          "ite": -0.073,
+          "ite_upper": -0.036,
+          "ite_lower": -0.11,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 3.46,
+            "hr": 112.4,
+            "spo2": 94.7,
+            "urine": 24.8
+          },
+          "vaso_vitals": {
+            "map": 62.2,
+            "lactate": 3.26,
+            "hr": 111.3,
+            "spo2": 95.1,
+            "urine": 27.2
+          }
+        },
+        {
+          "hour": 2,
+          "label": "H2",
+          "mu0": 0.333,
+          "mu1": 0.262,
+          "ite": -0.071,
+          "ite_upper": -0.032,
+          "ite_lower": -0.11,
+          "fluids_vitals": {
+            "map": 60.5,
+            "lactate": 3.53,
+            "hr": 112.4,
+            "spo2": 94.4,
+            "urine": 23.3
+          },
+          "vaso_vitals": {
+            "map": 63.5,
+            "lactate": 3.18,
+            "hr": 110.4,
+            "spo2": 95.1,
+            "urine": 28.1
+          }
+        },
+        {
+          "hour": 3,
+          "label": "H3",
+          "mu0": 0.33,
+          "mu1": 0.278,
+          "ite": -0.051,
+          "ite_upper": -0.01,
+          "ite_lower": -0.092,
+          "fluids_vitals": {
+            "map": 60.5,
+            "lactate": 3.65,
+            "hr": 112.4,
+            "spo2": 94.1,
+            "urine": 22.2
+          },
+          "vaso_vitals": {
+            "map": 64.7,
+            "lactate": 3.08,
+            "hr": 109.5,
+            "spo2": 95.1,
+            "urine": 29.2
+          }
+        },
+        {
+          "hour": 4,
+          "label": "H4",
+          "mu0": 0.328,
+          "mu1": 0.285,
+          "ite": -0.043,
+          "ite_upper": 0.0,
+          "ite_lower": -0.086,
+          "fluids_vitals": {
+            "map": 60.5,
+            "lactate": 3.73,
+            "hr": 112.4,
+            "spo2": 93.7,
+            "urine": 21.2
+          },
+          "vaso_vitals": {
+            "map": 66.2,
+            "lactate": 2.92,
+            "hr": 108.6,
+            "spo2": 95.1,
+            "urine": 30.7
+          }
+        },
+        {
+          "hour": 5,
+          "label": "H5",
+          "mu0": 0.323,
+          "mu1": 0.296,
+          "ite": -0.027,
+          "ite_upper": 0.018,
+          "ite_lower": -0.072,
+          "fluids_vitals": {
+            "map": 60.5,
+            "lactate": 3.79,
+            "hr": 112.4,
+            "spo2": 93.4,
+            "urine": 20.4
+          },
+          "vaso_vitals": {
+            "map": 67.7,
+            "lactate": 2.8,
+            "hr": 107.9,
+            "spo2": 95.1,
+            "urine": 31.9
+          }
+        },
+        {
+          "hour": 6,
+          "label": "H6",
+          "mu0": 0.322,
+          "mu1": 0.306,
+          "ite": -0.015,
+          "ite_upper": 0.032,
+          "ite_lower": -0.062,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 3.88,
+            "hr": 112.3,
+            "spo2": 93.1,
+            "urine": 19.3
+          },
+          "vaso_vitals": {
+            "map": 69.5,
+            "lactate": 2.66,
+            "hr": 107.0,
+            "spo2": 95.1,
+            "urine": 32.9
+          }
+        },
+        {
+          "hour": 7,
+          "label": "H7",
+          "mu0": 0.308,
+          "mu1": 0.309,
+          "ite": 0.001,
+          "ite_upper": 0.05,
+          "ite_lower": -0.048,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 3.95,
+            "hr": 112.2,
+            "spo2": 92.7,
+            "urine": 18.5
+          },
+          "vaso_vitals": {
+            "map": 70.9,
+            "lactate": 2.49,
+            "hr": 106.0,
+            "spo2": 95.1,
+            "urine": 34.1
+          }
+        },
+        {
+          "hour": 8,
+          "label": "H8",
+          "mu0": 0.288,
+          "mu1": 0.309,
+          "ite": 0.02,
+          "ite_upper": 0.071,
+          "ite_lower": -0.031,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.0,
+            "hr": 112.2,
+            "spo2": 92.4,
+            "urine": 17.6
+          },
+          "vaso_vitals": {
+            "map": 72.4,
+            "lactate": 2.36,
+            "hr": 105.0,
+            "spo2": 95.1,
+            "urine": 35.3
+          }
+        },
+        {
+          "hour": 9,
+          "label": "H9",
+          "mu0": 0.256,
+          "mu1": 0.307,
+          "ite": 0.051,
+          "ite_upper": 0.104,
+          "ite_lower": -0.002,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.1,
+            "hr": 112.2,
+            "spo2": 92.1,
+            "urine": 16.7
+          },
+          "vaso_vitals": {
+            "map": 73.8,
+            "lactate": 2.24,
+            "hr": 104.0,
+            "spo2": 95.1,
+            "urine": 36.9
+          }
+        },
+        {
+          "hour": 10,
+          "label": "H10",
+          "mu0": 0.221,
+          "mu1": 0.297,
+          "ite": 0.076,
+          "ite_upper": 0.131,
+          "ite_lower": 0.021,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.18,
+            "hr": 112.2,
+            "spo2": 91.8,
+            "urine": 15.8
+          },
+          "vaso_vitals": {
+            "map": 75.0,
+            "lactate": 2.13,
+            "hr": 102.8,
+            "spo2": 95.1,
+            "urine": 38.7
+          }
+        },
+        {
+          "hour": 11,
+          "label": "H11",
+          "mu0": 0.187,
+          "mu1": 0.285,
+          "ite": 0.098,
+          "ite_upper": 0.155,
+          "ite_lower": 0.041,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.23,
+            "hr": 112.2,
+            "spo2": 91.5,
+            "urine": 14.9
+          },
+          "vaso_vitals": {
+            "map": 76.6,
+            "lactate": 1.95,
+            "hr": 101.7,
+            "spo2": 95.1,
+            "urine": 40.4
+          }
+        },
+        {
+          "hour": 12,
+          "label": "H12",
+          "mu0": 0.177,
+          "mu1": 0.252,
+          "ite": 0.075,
+          "ite_upper": 0.134,
+          "ite_lower": 0.016,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.31,
+            "hr": 112.2,
+            "spo2": 91.2,
+            "urine": 13.9
+          },
+          "vaso_vitals": {
+            "map": 78.3,
+            "lactate": 1.86,
+            "hr": 100.4,
+            "spo2": 95.1,
+            "urine": 42.0
+          }
+        },
+        {
+          "hour": 13,
+          "label": "H13",
+          "mu0": 0.159,
+          "mu1": 0.232,
+          "ite": 0.073,
+          "ite_upper": 0.134,
+          "ite_lower": 0.012,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.37,
+            "hr": 112.2,
+            "spo2": 90.9,
+            "urine": 12.4
+          },
+          "vaso_vitals": {
+            "map": 80.0,
+            "lactate": 1.73,
+            "hr": 99.0,
+            "spo2": 95.1,
+            "urine": 43.5
+          }
+        },
+        {
+          "hour": 14,
+          "label": "H14",
+          "mu0": 0.145,
+          "mu1": 0.223,
+          "ite": 0.078,
+          "ite_upper": 0.141,
+          "ite_lower": 0.015,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.43,
+            "hr": 112.2,
+            "spo2": 90.7,
+            "urine": 11.5
+          },
+          "vaso_vitals": {
+            "map": 81.3,
+            "lactate": 1.62,
+            "hr": 97.8,
+            "spo2": 95.1,
+            "urine": 45.0
+          }
+        },
+        {
+          "hour": 15,
+          "label": "H15",
+          "mu0": 0.13,
+          "mu1": 0.195,
+          "ite": 0.065,
+          "ite_upper": 0.13,
+          "ite_lower": 0.0,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.49,
+            "hr": 112.2,
+            "spo2": 90.4,
+            "urine": 10.5
+          },
+          "vaso_vitals": {
+            "map": 83.0,
+            "lactate": 1.53,
+            "hr": 96.6,
+            "spo2": 95.1,
+            "urine": 46.0
+          }
+        },
+        {
+          "hour": 16,
+          "label": "H16",
+          "mu0": 0.107,
+          "mu1": 0.186,
+          "ite": 0.078,
+          "ite_upper": 0.145,
+          "ite_lower": 0.011,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.57,
+            "hr": 108.9,
+            "spo2": 90.1,
+            "urine": 9.5
+          },
+          "vaso_vitals": {
+            "map": 84.8,
+            "lactate": 1.41,
+            "hr": 95.1,
+            "spo2": 95.1,
+            "urine": 47.3
+          }
+        },
+        {
+          "hour": 17,
+          "label": "H17",
+          "mu0": 0.104,
+          "mu1": 0.18,
+          "ite": 0.076,
+          "ite_upper": 0.145,
+          "ite_lower": 0.007,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.62,
+            "hr": 105.5,
+            "spo2": 89.7,
+            "urine": 8.7
+          },
+          "vaso_vitals": {
+            "map": 86.4,
+            "lactate": 1.23,
+            "hr": 93.3,
+            "spo2": 95.1,
+            "urine": 49.0
+          }
+        },
+        {
+          "hour": 18,
+          "label": "H18",
+          "mu0": 0.099,
+          "mu1": 0.15,
+          "ite": 0.051,
+          "ite_upper": 0.122,
+          "ite_lower": -0.02,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.69,
+            "hr": 102.3,
+            "spo2": 89.4,
+            "urine": 7.6
+          },
+          "vaso_vitals": {
+            "map": 88.1,
+            "lactate": 1.11,
+            "hr": 92.0,
+            "spo2": 95.1,
+            "urine": 50.0
+          }
+        },
+        {
+          "hour": 19,
+          "label": "H19",
+          "mu0": 0.099,
+          "mu1": 0.148,
+          "ite": 0.049,
+          "ite_upper": 0.122,
+          "ite_lower": -0.024,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.73,
+            "hr": 99.4,
+            "spo2": 89.1,
+            "urine": 6.6
+          },
+          "vaso_vitals": {
+            "map": 89.7,
+            "lactate": 0.99,
+            "hr": 90.6,
+            "spo2": 95.1,
+            "urine": 51.5
+          }
+        },
+        {
+          "hour": 20,
+          "label": "H20",
+          "mu0": 0.096,
+          "mu1": 0.141,
+          "ite": 0.046,
+          "ite_upper": 0.121,
+          "ite_lower": -0.029,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.77,
+            "hr": 96.4,
+            "spo2": 88.7,
+            "urine": 5.5
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.85,
+            "hr": 89.3,
+            "spo2": 95.1,
+            "urine": 52.7
+          }
+        },
+        {
+          "hour": 21,
+          "label": "H21",
+          "mu0": 0.099,
+          "mu1": 0.148,
+          "ite": 0.049,
+          "ite_upper": 0.126,
+          "ite_lower": -0.028,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.85,
+            "hr": 93.1,
+            "spo2": 88.4,
+            "urine": 4.7
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.72,
+            "hr": 88.3,
+            "spo2": 95.1,
+            "urine": 53.8
+          }
+        },
+        {
+          "hour": 22,
+          "label": "H22",
+          "mu0": 0.1,
+          "mu1": 0.154,
+          "ite": 0.054,
+          "ite_upper": 0.133,
+          "ite_lower": -0.025,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.9,
+            "hr": 90.0,
+            "spo2": 88.1,
+            "urine": 3.6
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.59,
+            "hr": 87.1,
+            "spo2": 95.1,
+            "urine": 55.8
+          }
+        },
+        {
+          "hour": 23,
+          "label": "H23",
+          "mu0": 0.101,
+          "mu1": 0.161,
+          "ite": 0.06,
+          "ite_upper": 0.141,
+          "ite_lower": -0.021,
+          "fluids_vitals": {
+            "map": 60.6,
+            "lactate": 4.99,
+            "hr": 86.8,
+            "spo2": 87.7,
+            "urine": 2.7
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 85.9,
+            "spo2": 95.1,
+            "urine": 57.1
+          }
+        }
+      ]
+    },
+    {
+      "admission": {
+        "sofa": 6,
+        "map": 66,
+        "lactate": 2.1,
+        "age": 44,
+        "creatinine": 0.9,
+        "hr": 98,
+        "spo2": 97,
+        "urine": 42
+      },
+      "pivot_hour": 10,
+      "no_return_hour": 11,
+      "hourly": [
+        {
+          "hour": 0,
+          "label": "H0",
+          "mu0": 0.579,
+          "mu1": 0.308,
+          "ite": -0.271,
+          "ite_upper": -0.236,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 66.0,
+            "lactate": 2.1,
+            "hr": 98.0,
+            "spo2": 97.0,
+            "urine": 42.0
+          },
+          "vaso_vitals": {
+            "map": 66.0,
+            "lactate": 2.1,
+            "hr": 98.0,
+            "spo2": 97.0,
+            "urine": 42.0
+          }
+        },
+        {
+          "hour": 1,
+          "label": "H1",
+          "mu0": 0.579,
+          "mu1": 0.301,
+          "ite": -0.279,
+          "ite_upper": -0.242,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 65.7,
+            "lactate": 2.14,
+            "hr": 98.6,
+            "spo2": 96.6,
+            "urine": 40.9
+          },
+          "vaso_vitals": {
+            "map": 67.6,
+            "lactate": 1.97,
+            "hr": 97.4,
+            "spo2": 97.0,
+            "urine": 43.3
+          }
+        },
+        {
+          "hour": 2,
+          "label": "H2",
+          "mu0": 0.576,
+          "mu1": 0.295,
+          "ite": -0.281,
+          "ite_upper": -0.242,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 65.4,
+            "lactate": 2.25,
+            "hr": 98.8,
+            "spo2": 96.3,
+            "urine": 39.7
+          },
+          "vaso_vitals": {
+            "map": 69.4,
+            "lactate": 1.88,
+            "hr": 96.4,
+            "spo2": 97.0,
+            "urine": 44.4
+          }
+        },
+        {
+          "hour": 3,
+          "label": "H3",
+          "mu0": 0.575,
+          "mu1": 0.298,
+          "ite": -0.277,
+          "ite_upper": -0.236,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 65.0,
+            "lactate": 2.32,
+            "hr": 98.9,
+            "spo2": 96.0,
+            "urine": 38.4
+          },
+          "vaso_vitals": {
+            "map": 70.7,
+            "lactate": 1.74,
+            "hr": 95.6,
+            "spo2": 97.0,
+            "urine": 45.6
+          }
+        },
+        {
+          "hour": 4,
+          "label": "H4",
+          "mu0": 0.573,
+          "mu1": 0.306,
+          "ite": -0.267,
+          "ite_upper": -0.224,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.9,
+            "lactate": 2.32,
+            "hr": 98.8,
+            "spo2": 95.7,
+            "urine": 37.0
+          },
+          "vaso_vitals": {
+            "map": 72.0,
+            "lactate": 1.63,
+            "hr": 94.8,
+            "spo2": 97.0,
+            "urine": 46.9
+          }
+        },
+        {
+          "hour": 5,
+          "label": "H5",
+          "mu0": 0.572,
+          "mu1": 0.291,
+          "ite": -0.282,
+          "ite_upper": -0.237,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.6,
+            "lactate": 2.32,
+            "hr": 98.8,
+            "spo2": 95.4,
+            "urine": 36.1
+          },
+          "vaso_vitals": {
+            "map": 73.4,
+            "lactate": 1.53,
+            "hr": 93.6,
+            "spo2": 97.0,
+            "urine": 48.1
+          }
+        },
+        {
+          "hour": 6,
+          "label": "H6",
+          "mu0": 0.57,
+          "mu1": 0.306,
+          "ite": -0.264,
+          "ite_upper": -0.217,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.5,
+            "lactate": 2.31,
+            "hr": 98.7,
+            "spo2": 95.1,
+            "urine": 34.9
+          },
+          "vaso_vitals": {
+            "map": 75.0,
+            "lactate": 1.41,
+            "hr": 92.5,
+            "spo2": 97.0,
+            "urine": 49.3
+          }
+        },
+        {
+          "hour": 7,
+          "label": "H7",
+          "mu0": 0.57,
+          "mu1": 0.314,
+          "ite": -0.256,
+          "ite_upper": -0.207,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.1,
+            "lactate": 2.31,
+            "hr": 98.7,
+            "spo2": 94.7,
+            "urine": 33.9
+          },
+          "vaso_vitals": {
+            "map": 76.6,
+            "lactate": 1.23,
+            "hr": 91.6,
+            "spo2": 97.0,
+            "urine": 50.5
+          }
+        },
+        {
+          "hour": 8,
+          "label": "H8",
+          "mu0": 0.553,
+          "mu1": 0.312,
+          "ite": -0.242,
+          "ite_upper": -0.191,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.1,
+            "lactate": 2.31,
+            "hr": 98.6,
+            "spo2": 94.4,
+            "urine": 32.7
+          },
+          "vaso_vitals": {
+            "map": 78.3,
+            "lactate": 1.12,
+            "hr": 90.8,
+            "spo2": 97.0,
+            "urine": 51.8
+          }
+        },
+        {
+          "hour": 9,
+          "label": "H9",
+          "mu0": 0.544,
+          "mu1": 0.317,
+          "ite": -0.227,
+          "ite_upper": -0.174,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 98.5,
+            "spo2": 94.1,
+            "urine": 31.9
+          },
+          "vaso_vitals": {
+            "map": 80.0,
+            "lactate": 0.99,
+            "hr": 89.5,
+            "spo2": 97.0,
+            "urine": 53.8
+          }
+        },
+        {
+          "hour": 10,
+          "label": "H10",
+          "mu0": 0.524,
+          "mu1": 0.302,
+          "ite": -0.222,
+          "ite_upper": -0.167,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 98.5,
+            "spo2": 93.7,
+            "urine": 30.8
+          },
+          "vaso_vitals": {
+            "map": 81.3,
+            "lactate": 0.86,
+            "hr": 88.4,
+            "spo2": 97.0,
+            "urine": 55.7
+          }
+        },
+        {
+          "hour": 11,
+          "label": "H11",
+          "mu0": 0.483,
+          "mu1": 0.303,
+          "ite": -0.18,
+          "ite_upper": -0.123,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 98.4,
+            "spo2": 93.4,
+            "urine": 29.8
+          },
+          "vaso_vitals": {
+            "map": 83.0,
+            "lactate": 0.72,
+            "hr": 87.2,
+            "spo2": 97.0,
+            "urine": 57.0
+          }
+        },
+        {
+          "hour": 12,
+          "label": "H12",
+          "mu0": 0.459,
+          "mu1": 0.299,
+          "ite": -0.16,
+          "ite_upper": -0.101,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 98.2,
+            "spo2": 93.1,
+            "urine": 28.6
+          },
+          "vaso_vitals": {
+            "map": 84.8,
+            "lactate": 0.59,
+            "hr": 86.0,
+            "spo2": 97.0,
+            "urine": 58.5
+          }
+        },
+        {
+          "hour": 13,
+          "label": "H13",
+          "mu0": 0.431,
+          "mu1": 0.283,
+          "ite": -0.147,
+          "ite_upper": -0.086,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 98.2,
+            "spo2": 92.7,
+            "urine": 27.9
+          },
+          "vaso_vitals": {
+            "map": 86.4,
+            "lactate": 0.52,
+            "hr": 84.9,
+            "spo2": 97.0,
+            "urine": 60.1
+          }
+        },
+        {
+          "hour": 14,
+          "label": "H14",
+          "mu0": 0.386,
+          "mu1": 0.182,
+          "ite": -0.204,
+          "ite_upper": -0.141,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 98.2,
+            "spo2": 92.4,
+            "urine": 26.7
+          },
+          "vaso_vitals": {
+            "map": 88.1,
+            "lactate": 0.52,
+            "hr": 83.7,
+            "spo2": 97.0,
+            "urine": 61.6
+          }
+        },
+        {
+          "hour": 15,
+          "label": "H15",
+          "mu0": 0.333,
+          "mu1": 0.149,
+          "ite": -0.184,
+          "ite_upper": -0.119,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 97.9,
+            "spo2": 92.1,
+            "urine": 25.7
+          },
+          "vaso_vitals": {
+            "map": 89.7,
+            "lactate": 0.52,
+            "hr": 82.4,
+            "spo2": 97.0,
+            "urine": 63.3
+          }
+        },
+        {
+          "hour": 16,
+          "label": "H16",
+          "mu0": 0.305,
+          "mu1": 0.104,
+          "ite": -0.201,
+          "ite_upper": -0.134,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 94.7,
+            "spo2": 91.7,
+            "urine": 24.5
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 81.0,
+            "spo2": 97.0,
+            "urine": 64.9
+          }
+        },
+        {
+          "hour": 17,
+          "label": "H17",
+          "mu0": 0.297,
+          "mu1": 0.077,
+          "ite": -0.22,
+          "ite_upper": -0.151,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 91.3,
+            "spo2": 91.3,
+            "urine": 23.4
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 79.9,
+            "spo2": 97.0,
+            "urine": 66.3
+          }
+        },
+        {
+          "hour": 18,
+          "label": "H18",
+          "mu0": 0.254,
+          "mu1": 0.052,
+          "ite": -0.203,
+          "ite_upper": -0.132,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 88.0,
+            "spo2": 91.0,
+            "urine": 22.3
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 78.6,
+            "spo2": 97.0,
+            "urine": 67.4
+          }
+        },
+        {
+          "hour": 19,
+          "label": "H19",
+          "mu0": 0.24,
+          "mu1": 0.052,
+          "ite": -0.188,
+          "ite_upper": -0.115,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 84.7,
+            "spo2": 90.7,
+            "urine": 21.2
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 77.5,
+            "spo2": 97.0,
+            "urine": 68.1
+          }
+        },
+        {
+          "hour": 20,
+          "label": "H20",
+          "mu0": 0.209,
+          "mu1": 0.051,
+          "ite": -0.158,
+          "ite_upper": -0.083,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 81.5,
+            "spo2": 90.4,
+            "urine": 20.5
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 76.0,
+            "spo2": 97.0,
+            "urine": 69.7
+          }
+        },
+        {
+          "hour": 21,
+          "label": "H21",
+          "mu0": 0.202,
+          "mu1": 0.061,
+          "ite": -0.141,
+          "ite_upper": -0.064,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 77.9,
+            "spo2": 90.1,
+            "urine": 19.6
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 75.0,
+            "spo2": 97.0,
+            "urine": 71.4
+          }
+        },
+        {
+          "hour": 22,
+          "label": "H22",
+          "mu0": 0.203,
+          "mu1": 0.061,
+          "ite": -0.142,
+          "ite_upper": -0.063,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 74.5,
+            "spo2": 89.7,
+            "urine": 18.5
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 74.1,
+            "spo2": 97.0,
+            "urine": 71.6
+          }
+        },
+        {
+          "hour": 23,
+          "label": "H23",
+          "mu0": 0.205,
+          "mu1": 0.072,
+          "ite": -0.133,
+          "ite_upper": -0.052,
+          "ite_lower": -0.2,
+          "fluids_vitals": {
+            "map": 64.2,
+            "lactate": 2.31,
+            "hr": 70.7,
+            "spo2": 89.4,
+            "urine": 17.6
+          },
+          "vaso_vitals": {
+            "map": 89.9,
+            "lactate": 0.52,
+            "hr": 72.7,
+            "spo2": 97.0,
+            "urine": 72.6
+          }
+        }
+      ]
+    }
+  ],
+  "training_metrics": {
+    "mu0_train_mse": 0.002,
+    "mu1_train_mse": 0.0073,
+    "n_control": 11182,
+    "n_treated": 10530
+  }
+}
